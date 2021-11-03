@@ -1,0 +1,99 @@
+<html>
+	<head>
+	<style type="text/css">
+	body{
+	}
+	#mainarea{
+		width:1200px;
+		height:1500px;
+		background:skyblue;
+	}
+		
+	#birdarea{
+		width:200px;
+		height:200px;
+		animation-name:bird;
+		animation-duration:4s;
+		animation-delay:1s;
+		animation-iteration-count:5;
+	}
+	@keyframes bird{
+		0%{
+			background:url("1.png") no-repeat; 
+			transform:translatex(5px);
+		}
+		10%{
+			background:url("2.png") no-repeat;
+			transform:translatex(10px);
+		}
+		20%{
+			background:url("3.png") no-repeat;
+			transform:translatex(15px);
+		}
+		30%{
+			background:url("4.png") no-repeat;
+			transform:translatex(20px);
+		}
+		40%{
+			background:url("5.png") no-repeat;
+			transform:translatex(30px);
+		}
+		50%{
+			background:url("6.png") no-repeat;
+			transform:translatex(35px);
+		}	
+		60%{
+			background:url("7.png") no-repeat;
+			transform:translatex(40px);
+		}
+		70%{
+			background:url("8.png") no-repeat;
+			transform:translatex(45px);
+		}
+		
+	}
+	#darea{
+		width:1200px;
+		height:400px;
+		background:blue;
+	}
+	#circlearea{
+		width:100px;
+		height:100px;
+		background:yellow;
+		position:fixed;
+		left:1220px;
+		bottom:90%;
+		border-radius:50%;
+		animation-name:anjali;
+		animation-duration:4s;
+		animation-delay:1s;
+		animation-iteration-count:5;
+		animation:anjali 4s 0s alternate ease-in-out;
+	}
+	@keyframes anjali{
+		0%{
+		
+		}
+		100%{
+			bottom:0;
+			border-radius:0;
+			
+		}
+	}
+	</style>
+	</head>
+	<body>
+		<div id="mainarea">
+			<div id="birdarea">
+			</div>
+			<div id ="darea">
+				<div id="circlearea">
+				</div>
+			</div>
+	</body>
+
+
+
+
+</html>
